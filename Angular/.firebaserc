@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-admin-83f07": {
+      "hosting": {
+        "Angular": [
+          "fir-admin-83f07"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-admin-83f07"
+  }
+}

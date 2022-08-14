@@ -1,0 +1,12 @@
+<div #container class="note-card-container" style="margin: 20px"*ngFor="let note of notes$ | async">
+    <div class="note-card-content" >
+        <h1 class = "note-card-title ">Title: </h1>
+
+        <div style="padding-left: 20px"class = "note-card-body">
+            <div >Content: </div>
+        </div>
+    </div>
+
+    <button (click)="deleteNote(note._id)" class = "x-button"></button>
+    
+</div>
